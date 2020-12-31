@@ -1,0 +1,49 @@
+table{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 4px;
+    padding: 1px solid red;
+}
+td{
+    border: 3px solid rgb(96, 121, 121);
+    border-radius: 4px; 
+}
+
+input[type="text"],input[type="password"]{
+    width: 90%;
+    padding: 10px;
+    background-color:lightblue;
+    color: rgb(202, 212, 202);
+    border: 2px solid green;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    background-color: green;
+    border: 2px solid red;
+}
+.button1:hover{
+    
+    border-radius: 10%;
+    color: black;
+    background-color: green;
+    box-shadow: 0 10px 12px 0 rgb(128, 224, 32), 
+                0 10px 12px 0 rgb(61, 71, 61);
+}
+.button{
+    border-radius: 30% ;
+    color: black;
+    border: 40px 40px;
+    background-color: rgba(43, 231, 99, 0.603);
+    border: 3px solid rgb(6, 133, 74);
+    padding: 15px 15px;
+    color: rgb(247, 234, 234);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
